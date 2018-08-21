@@ -1,0 +1,9 @@
+[
+  {
+    "on": "/incident-template",
+    "channel": "<%=session.channel_id%>",
+    "username": "Incident Template Bot",
+    "icon_emoji": ":rocket:",
+    "text": "*Incident Summary reported by <@<%=session.user_id%>>*\n\nWe need some help with the following:\n*Core incident roles*\n\n:robot_face: An Operator to update Incident macros/view\n:speaking_head_in_silhouette: A Communicator to run communications\n:mega: A Reporter to follow along in the relevant Eng channel and report back on developments\n:captain: A Triage Captain to manage triage and send out our macro\n:bird: 1 volunteer on Twitter to monitor @SlackStatus and @SlackHQ\n:capt-planet: An Incident Coach to be a point of support\n:enterprise: An Enterprise Lead to communicate with our large customers\n\n*During Live Support & Language Support hours*:\n:life_preserver: A Lifeguard who will own LS communication and administrative tasks\n:flag-jp:  One JP translator needed to translate macros\n\nWho will do the above? React here!\n(Everyone else, carry on answering tickets like normal.)"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "name": "incident-process",
+  "version": "1.0.0",
+  "description": "Slack's incident template",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Kevin Albers",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "randomstring": "^1.1.5",
+    "redis": "^2.7.1",
+    "tinyspeck": "^1.4.2"
+  }
+}
